@@ -1,0 +1,10 @@
+-- Function showcasing how widening is allowed but narrowing is not
+
+function main returns boolean;
+	a: integer is 3;
+	b: real is a; 
+	c: real is 3.5;
+	d: integer is c;
+begin
+	a;
+end;

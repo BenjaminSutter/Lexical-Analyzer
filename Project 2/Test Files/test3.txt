@@ -1,0 +1,8 @@
+-- Function with boolean and real variables
+
+function test3 returns boolean;
+    a: real is 3;
+    b: boolean is 5 < 2;
+begin
+    b and a < 8 + 1 * 7;    
+end;

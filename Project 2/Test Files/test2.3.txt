@@ -1,0 +1,7 @@
+-- Missing is keyword in variable
+
+function test2 a: integer returns integer;
+    b: integer 9 * 2 + 8;
+begin
+    b + 2 * 8;    
+end;

@@ -1,0 +1,7 @@
+-- Using Boolean Expression with Arithmetic Operator
+
+function main returns integer;
+
+begin
+    9 + (6 < 0);
+end;

@@ -1,0 +1,7 @@
+-- Function with an Integer Variable and multiple parameters of all 3 types
+
+function test2 a: integer , d: boolean, tree: real returns integer;
+    b: integer is 9 * 2 + 8;
+begin
+    b + 2 * 8;    
+end;

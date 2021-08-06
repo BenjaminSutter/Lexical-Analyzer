@@ -1,0 +1,8 @@
+-- Reduction without a statement parsed correctly
+
+function test4 returns integer;
+begin
+    reduce *
+
+    endreduce;    
+end;

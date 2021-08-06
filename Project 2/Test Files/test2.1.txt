@@ -1,0 +1,7 @@
+-- Variable missing indentifier
+
+function test2 a: integer returns integer;
+    : integer is 9 * 2 + 8;
+begin
+    b + 2 * 8;    
+end;

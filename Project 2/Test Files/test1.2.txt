@@ -1,0 +1,6 @@
+-- Missing identifier in header
+
+function returns integer;
+begin
+    7 + 2 * (2  + 4);
+end;

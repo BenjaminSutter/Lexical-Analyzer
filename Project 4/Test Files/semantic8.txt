@@ -1,0 +1,7 @@
+-- Boolean types mixed with numeric types in variable initilization and return
+function test a: integer returns integer;
+	b: integer is 1 + true;
+	c: real is 2 + false;
+begin 
+	6 + true;
+end;

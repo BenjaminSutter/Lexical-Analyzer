@@ -1,0 +1,6 @@
+-- Using Boolean Expression with Relational Operator
+
+function main returns boolean;
+begin
+    (6 rem 3.4) + (3.4 rem 6) + (true rem 1) + (false rem 2);
+end;

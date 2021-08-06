@@ -1,0 +1,7 @@
+-- Missing colon in variable
+
+function test2 a: integer , d: boolean, tree: real returns integer;
+    b integer is 9 * 2 + 8;
+begin
+    b + 2 * 8;    
+end;

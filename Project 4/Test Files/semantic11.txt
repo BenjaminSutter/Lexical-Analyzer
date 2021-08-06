@@ -1,0 +1,7 @@
+-- Bonus: proving that program can recognize when return type matches what is actually returned.
+
+function main returns boolean;
+
+begin
+	false;
+end;

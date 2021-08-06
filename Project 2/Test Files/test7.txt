@@ -1,0 +1,12 @@
+-- Further testing of if statement and not keyword
+
+function test6 returns integer;
+	a: real is 5.1;
+	b: integer is 6;
+begin
+	if a and not a > b then
+		b ** a;
+	else
+		b - a;
+	endif;
+end;

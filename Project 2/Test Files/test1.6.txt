@@ -1,0 +1,4 @@
+-- Missing body
+
+function test1 returns integer;
+

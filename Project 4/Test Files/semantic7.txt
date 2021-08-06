@@ -1,0 +1,20 @@
+-- Test of Multiple Semantic Errors 
+function test a: integer, a: boolean returns integer;
+	a: integer is 3;
+	b: integer is 
+		if 1 + 5 then 
+			2; 
+		else 
+			true; 
+		endif;
+	c: real is 9.8 - 2 + 8;
+	d: boolean is 7 = f; 
+
+begin 
+	case c is 
+		when 1 => 4.5 + c; 
+		when 2 => b; 
+		when 3 => 6.3;
+		others => true; 
+	endcase; 
+end;

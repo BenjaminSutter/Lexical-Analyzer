@@ -1,0 +1,6 @@
+-- Missing type in header
+
+function test1 returns;
+begin
+    7 + 2 * (2  + 4);
+end;

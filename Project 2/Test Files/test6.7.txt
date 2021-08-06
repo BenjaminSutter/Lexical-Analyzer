@@ -1,0 +1,11 @@
+-- casee missing statement
+
+function test6 returns integer;
+	a: real is 5.1;
+	b: integer is 6;
+begin
+	case b - a is
+		when 2 => 
+		others => 2 / b + a - 3;
+	endcase;
+end;

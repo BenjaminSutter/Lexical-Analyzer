@@ -1,0 +1,10 @@
+-- Reduction missing reduce keyword
+
+function test4 returns integer;
+begin
+    *
+         2 + 8;
+         6;
+         3;
+    endreduce;    
+end;

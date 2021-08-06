@@ -1,0 +1,7 @@
+-- Missing statement in variable
+
+function test2 a: integer returns integer;
+    b: integer is;
+begin
+    b + 2 * 8;    
+end;
